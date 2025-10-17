@@ -102,7 +102,7 @@ const Connect = () => {
 
           <div className="w-full md:w-auto mt-10 sm:mt-10 flex justify-center">
             <img
-              src="https://img.hotimg.com/Space.png"
+              src="https://i.ibb.co/hJmGw6hP/Space.png"
               className="w-48 h-48 md:w-80 md:h-80 object-cover floating"
               alt="Astronaut in Space"
             />
