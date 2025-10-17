@@ -54,7 +54,7 @@ const Projects = () => {
     },
     {
       id: 4,
-      image: "https://img.hotimg.com/Portfolio-2.png",
+      image: "https://i.ibb.co/99qcfDWg/Screenshot-2025-10-18-at-1-36-02-AM.png",
       name: "Masai Movies",
       desc: "Masai Movies is an aggregator service for the entertainment industry whereby we can assist you with information and ticketing for movies.....",
       techStacks: [
