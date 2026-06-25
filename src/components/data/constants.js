@@ -27,7 +27,7 @@ export const skills = [
       },
       {
         name: "Material UI",
-        image: "https://img.hotimg.com/pngwing.comafad344a1cd27f06.png",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgWrLtQhra0UH183JhGRoKz2v3SZIjkfHuPdXkYXeG3w&s",
       },
       {
         name: "Chakra UI",
@@ -106,6 +106,30 @@ export const skills = [
       {
         name: "Figma",
         image: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
+      },
+      {
+        name: "Oracle NetSuite",
+        image: "https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg",
+      },
+      {
+        name: "SuiteFlow",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGYSJPv6lhdpH0rbZPIgatuVvYK-T4OXy-P9lNY9bJ4CkNv9gPO3IuQSY&s=10",
+      },
+      {
+        name: "Saved Searches",
+        image: "https://www.netsuite.com/portal/assets/img/business-articles/business-strategy/social-saved-search.jpg",
+      },
+      {
+        name: "Advanced PDF & HTML Templates",
+        image: "https://cdn.simpleicons.org/html5/E34F26",
+      },
+      {
+        name: "CSV Import & Data Management",
+        image: "https://cdn.simpleicons.org/files/4285F4",
+      },
+      {
+        name: "P2P & O2C Process",
+        image: "https://media.licdn.com/dms/image/v2/D5622AQHfjNVigzBwoQ/feedshare-shrink_1280/B56ZzB2tT3IsAc-/0/1772778870212?e=2147483647&v=beta&t=FN7PNLxoP3LfcUcUAX2---2RsAzC5Ngnn2n0jUGp0e0",
       },
     ],
   },
