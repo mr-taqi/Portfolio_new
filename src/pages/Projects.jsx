@@ -26,7 +26,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      image: "https://i.ibb.co/LztjxpT1/porject1.png",
+      image: "https://i.ibb.co/nsqg4jMp/Screenshot-2026-06-25-at-11-24-32-PM.png",
       name: "FORWARD",
       desc: "FWRD is an online shopping experience that transforms the traditional luxury boutique with first-class service, an exclusive designer roster (from iconic to emerging), and striking editorial imagery......",
       techStacks: [

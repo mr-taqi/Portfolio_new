@@ -18,6 +18,20 @@ const Experience = () => {
     "#Tailwind CSS",
   ];
 
+  const mindsuiteTechStacks = [
+    "#ERP",
+    "#JavaScript",
+    "#NetSuite ERP",
+    "#WorkFlow Automation",
+    "#HTML/PDF Templates",
+    "#SuiteScript",
+    "#SuiteFlow",
+    "O2C",
+    "P2P",
+    "Basic Accounting",
+    "Saved Searches",
+  ];
+
   return (
     <section
       className="flex justify-center flex-col items-center mt-[10em] gap-y-20 relative"
@@ -48,6 +62,66 @@ const Experience = () => {
       </div>
 
       {/* Experience Details */}
+
+      <div
+        className="flex justify-center items-center w-full"
+        id="details-container"
+      >
+        <div className="w-full max-w-4xl">
+          <div className="ps-2 my-2 first:mt-0">
+            <button className="text-xs font-medium uppercase text-gray-400">
+              Dec 2025 - May 2026
+            </button>
+          </div>
+
+          <div className="flex gap-x-3">
+            <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+              <div className="relative z-10 size-10 flex justify-center items-center">
+                <img
+                  className="shrink-0 rounded-full hover:scale-125 duration-500"
+                  src="https://www.mindsuite.in/_next/image?url=%2FMindsuite-logo-1.png&w=384&q=75"
+                  alt="Avatar"
+                />
+              </div>
+            </div>
+            <div className="grow pt-0.5 pb-8">
+              <h3 className="flex gap-x-1.5 uppercase font-semibold text-xl text-orange-700 hover:text-orange-500 duration-300">
+                Associate Engineer
+              </h3>
+              <h3 className="flex gap-x-1.5 font-semibold text-slate-500 text-lg">
+                Mindsuite Informatics Pvt. Ltd.
+              </h3>
+              <p className="mt-2 w-full">
+                <ul className="list-disc text-md sm:text-lg text-gray-500">
+                  <li className="hover:text-gray-400 duration-300">
+                    Acquired hands-on experience in ERP consulting through practical training in Oracle NetSuite, gaining proficiency in core business processes including Procure-to-Pay (P2P), Order-to-Cash (O2C), inventory management, and financial workflows.
+                  </li>
+                  <br />
+                  <li className="hover:text-gray-400 duration-300">
+                    Developed and customized NetSuite solutions by creating SuiteScripts, Suitelets, custom records, workflows, saved searches, CSV imports, and Advanced PDF/HTML templates to automate business processes and improve operational efficiency.
+                  </li>
+                  <br />
+                  <li className="hover:text-gray-400 duration-300">
+                    Implemented business requirements by configuring custom fields, validation logic, approval workflows, dashboards, and reports, while integrating standard NetSuite modules to streamline day-to-day operations
+                  </li>
+                </ul>
+              </p>
+              <div className="flex flex-wrap gap-x-4 mt-2">
+                {mindsuiteTechStacks.map((ele, index) => (
+                  <button
+                    key={index}
+                    type="button"
+                    className="mt-1 -ms-1 p-1 inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 duration-300 disabled:opacity-50 disabled:pointer-events-none"
+                  >
+                    {ele}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div
         className="flex justify-center items-center w-full"
         id="details-container"
@@ -117,7 +191,7 @@ const Experience = () => {
         <div className="w-full max-w-4xl">
           <div className="ps-2 my-2 first:mt-0">
             <button className="text-xs font-medium uppercase text-gray-400">
-              Oct 2023 - Jan 2024
+              Dec 2025 - May 2026
             </button>
           </div>
 
@@ -126,42 +200,35 @@ const Experience = () => {
               <div className="relative z-10 size-10 flex justify-center items-center">
                 <img
                   className="shrink-0 rounded-full hover:scale-125 duration-500"
-                  src="https://media.licdn.com/dms/image/D4D0BAQHuOcpkNw8yeA/company-logo_200_200/0/1692175412914/parangat_technologies_logo?e=2147483647&v=beta&t=X9QO01Ujnp8c-KtqT7OUXpaR57VzVjsoqHFuM0fmx9M"
+                  src="https://www.mindsuite.in/_next/image?url=%2FMindsuite-logo-1.png&w=384&q=75"
                   alt="Avatar"
                 />
               </div>
             </div>
             <div className="grow pt-0.5 pb-8">
               <h3 className="flex gap-x-1.5 uppercase font-semibold text-xl text-orange-700 hover:text-orange-500 duration-300">
-                Software Developer
+                Associate Engineer
               </h3>
               <h3 className="flex gap-x-1.5 font-semibold text-slate-500 text-lg">
-                Parangat Technologies
+                Mindsuite Informatics Pvt. Ltd.
               </h3>
               <p className="mt-2 w-full">
                 <ul className="list-disc text-md sm:text-lg text-gray-500">
                   <li className="hover:text-gray-400 duration-300">
-                    Acquired proficiency in ReactJs through hands-on learning
-                    and project development during the dynamic 3-month
-                    internship at Parangat Technologies.
+                    Acquired hands-on experience in ERP consulting through practical training in Oracle NetSuite, gaining proficiency in core business processes including Procure-to-Pay (P2P), Order-to-Cash (O2C), inventory management, and financial workflows.
                   </li>
                   <br />
                   <li className="hover:text-gray-400 duration-300">
-                    Contributed to Dashboard Projects at Parangat Technologies,
-                    focusing on the UI development using JavaScript, ReactJs,
-                    and Chakra UI.
+                    Developed and customized NetSuite solutions by creating SuiteScripts, Suitelets, custom records, workflows, saved searches, CSV imports, and Advanced PDF/HTML templates to automate business processes and improve operational efficiency.
                   </li>
                   <br />
                   <li className="hover:text-gray-400 duration-300">
-                    Applied test cases, enhancing user experience with UI
-                    libraries like Chakra UI and Redux for efficient state
-                    management, optimizing the performance and responsiveness of
-                    the project.
+                    Implemented business requirements by configuring custom fields, validation logic, approval workflows, dashboards, and reports, while integrating standard NetSuite modules to streamline day-to-day operations
                   </li>
                 </ul>
               </p>
               <div className="flex flex-wrap gap-x-4 mt-2">
-                {techStacks.map((ele, index) => (
+                {mindsuiteTechStacks.map((ele, index) => (
                   <button
                     key={index}
                     type="button"

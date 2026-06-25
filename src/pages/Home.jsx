@@ -14,7 +14,7 @@ import { useTypingEffect } from "../customHooks/useTypingEffect";
 let imageRow = [
   "https://i.ibb.co/chm228Yj/Screenshot-2025-10-18-at-12-36-41-AM.png",
   "https://i.ibb.co/99qcfDWg/Screenshot-2025-10-18-at-1-36-02-AM.png",
-  "https://i.ibb.co/LztjxpT1/porject1.png",
+  "https://i.ibb.co/nsqg4jMp/Screenshot-2026-06-25-at-11-24-32-PM.png",
   "https://i.ibb.co/bR2SfrkZ/Screenshot-2025-10-18-at-12-32-25-AM.png",
   "https://i.ibb.co/mVv2Tp4v/Screenshot-2025-10-18-at-1-05-11-AM.png",
 ];

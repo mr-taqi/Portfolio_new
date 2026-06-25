@@ -24,7 +24,7 @@ const About = () => {
       </div>
       <div>
         <img
-          src="https://i.ibb.co/HLPcs1fK/best-Of-My-Img-2.jpg"
+          src="https://i.ibb.co/xKRCkQQq/Whats-App-Image-2026-01-12-at-17-16-11.jpg"
           className="h-[100px] w-[100px] object-cover rounded-full sm:h-[200px] sm:w-[200px] sm:object-cover"
           alt=""
         />
