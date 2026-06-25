@@ -49,7 +49,7 @@ const navigation = [
     icon: <IoIosContact />,
   },
   {
-    to: "https://drive.google.com/file/d/1O4KaNfLUxOtW5YWhCn6jxXMlet58Mojq/view?usp=sharing",
+    to: "https://drive.google.com/file/d/1bEZ4SkgWlawzUxrdY2AYf8AEt3X2CGnw/view?usp=sharing",
     name: "Resume",
     icon: <MdOutlineContactPage />,
   },
