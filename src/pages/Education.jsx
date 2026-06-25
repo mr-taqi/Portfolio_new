@@ -42,6 +42,60 @@ const Education = () => {
       </div>
 
       {/* Education Details */}
+      {/* Masters in Computer Application */}
+
+      <div
+        className="flex justify-center items-center w-full"
+        id="details-container"
+      >
+        <div className="w-full max-w-4xl">
+          <div className="ps-2 my-2 first:mt-0">
+            <button className="text-xs font-medium uppercase text-gray-400">
+              March 2024 - June 2026
+            </button>
+          </div>
+
+          <div className="flex gap-x-3">
+            <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+              <div className="relative z-10 size-10 flex justify-center items-center">
+                <img
+                  className="shrink-0 rounded-full hover:scale-125 duration-500"
+                  src="https://cse.dbatu.ac.in/wp-content/uploads/2021/03/DBATU-Logo.png"
+                  alt="Avatar"
+                />
+              </div>
+            </div>
+            <div className="grow pt-0.5 pb-8">
+              <h3 className="flex gap-x-1.5 uppercase font-semibold text-xl text-orange-700 hover:text-orange-500 duration-300">
+                D.B.A.T.U University, Lonere.
+              </h3>
+              <h3 className="flex gap-x-1.5 font-semibold text-slate-400 text-lg">
+                Masters of Computer Application
+              </h3>
+              <p className="mt-2 w-full">
+                <ul className="list-disc text-base sm:text-base	text-gray-400">
+                  <li className="hover:text-gray-300 duration-300">
+                    I completed my Master of Computer Applications (MCA) from Suraj Institute of Management, Maharashtra, securing 88.36% in my final semester. Throughout the program, I built a strong understanding of programming, databases, software development, operating systems, computer networks, and problem-solving, which has helped me transition into ERP consulting and full-stack web development.
+                  </li>
+                </ul>
+              </p>
+              <div className="flex flex-wrap gap-x-4 mt-2">
+                {techStacksGU.map((ele, index) => (
+                  <button
+                    key={index}
+                    type="button"
+                    className="mt-1 -ms-1 p-1  inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent border-slate-800 text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100  duration-300 disabled:opacity-50 disabled:pointer-events-none"
+                  >
+                    {ele}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       {/* D.B.A.T.U University */}
       <div
         className="flex justify-center items-center w-full"
@@ -115,7 +169,7 @@ const Education = () => {
               <div className="relative z-10 size-10 flex justify-center items-center">
                 <img
                   className="shrink-0 rounded-full hover:scale-125 duration-500 h-8 w-8"
-                  src="https://gpbeed.ac.in/img/logo.svg"
+                  src="https://www.static-contents.youth4work.com/university/Documents/Colleges/collegeLogo/665493.PNG?v=20170509180427"
                   alt="Avatar"
                 />
               </div>
